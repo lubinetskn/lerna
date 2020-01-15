@@ -1,6 +1,6 @@
 {
   "name": "@lukos10000/compose",
-  "version": "1.0.3",
+  "version": "1.0.0-alpha.0",
   "description": "",
   "main": "index.js",
   "scripts": {
