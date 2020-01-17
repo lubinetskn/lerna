@@ -1,6 +1,6 @@
 {
   "name": "@lukos10000/deepclone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "30e545e3028a3d45a3e617ab83c69470750e5e8e",
+  "gitHead": "87f2eb2e3209235de14d65d9a20a638d92f89892",
   "dependencies": {
-    "@lukos10000/compose": "^1.0.1",
-    "@lukos10000/groupby": "^1.0.1"
+    "@lukos10000/compose": "^1.0.2",
+    "@lukos10000/groupby": "^1.0.2"
   }
 }
