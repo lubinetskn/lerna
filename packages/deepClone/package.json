@@ -1,11 +1,16 @@
 {
   "name": "@lukos10000/deepclone",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "58b9a70692725e573a852dcd1f19f9367b992da8",
+  "dependencies": {
+    "@lukos10000/compose": "^1.0.0",
+    "@lukos10000/groupby": "^1.0.0"
+  }
 }
