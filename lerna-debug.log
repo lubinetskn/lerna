@@ -4,11 +4,11 @@
 0 silly argv   '$0': 'lerna' }
 1 notice cli v3.20.2
 2 verbose rootPath /Users/konstantinlubinets/Documents/lerna-practice
-3 verbose session 33e4087d8bd92744
+3 verbose session 8383406ef5289860
 4 verbose user-agent lerna/3.20.2/node@v11.12.0+x64 (darwin)
 5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.20.2' }
 6 verbose rootPath /Users/konstantinlubinets/Documents/lerna-practice
-7 info current version 1.0.3
+7 info current version 1.0.4
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly currentBranch
@@ -18,14 +18,42 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "v1.0.3-1-g4b9a4cc" => {"lastTagName":"v1.0.3","lastVersion":"v1.0.3","refCount":"1","sha":"4b9a4cc","isDirty":false}
-18 info Looking for changed packages since v1.0.3
+17 silly git-describe.sync "v1.0.4-1-g0153cb7" => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"1","sha":"0153cb7","isDirty":false}
+18 info Looking for changed packages since v1.0.4
 19 silly checking diff packages/lodash
+20 silly found diff in packages/lodash/content/compose/README.md
+20 silly found diff in packages/lodash/content/compose/index.js
+20 silly found diff in packages/lodash/content/compose/node_modules/@lukos10000/groupby
+20 silly found diff in packages/lodash/content/compose/package.json
+20 silly found diff in packages/lodash/content/deepClone/README.md
+20 silly found diff in packages/lodash/content/deepClone/index.js
+20 silly found diff in packages/lodash/content/deepClone/node_modules/@lukos10000/compose
+20 silly found diff in packages/lodash/content/deepClone/node_modules/@lukos10000/groupby
+20 silly found diff in packages/lodash/content/deepClone/package.json
+20 silly found diff in packages/lodash/content/groupBy/index.js
+20 silly found diff in packages/lodash/content/groupBy/node_modules/@lukos10000/compose
+20 silly found diff in packages/lodash/content/groupBy/package.json
+20 silly found diff in packages/lodash/content/index.js
+20 silly found diff in packages/lodash/index.js
 20 silly found diff in packages/lodash/package.json
-21 verbose filtered diff [ 'packages/lodash/package.json' ]
+21 verbose filtered diff [ 'packages/lodash/content/compose/README.md',
+21 verbose filtered diff   'packages/lodash/content/compose/index.js',
+21 verbose filtered diff   'packages/lodash/content/compose/node_modules/@lukos10000/groupby',
+21 verbose filtered diff   'packages/lodash/content/compose/package.json',
+21 verbose filtered diff   'packages/lodash/content/deepClone/README.md',
+21 verbose filtered diff   'packages/lodash/content/deepClone/index.js',
+21 verbose filtered diff   'packages/lodash/content/deepClone/node_modules/@lukos10000/compose',
+21 verbose filtered diff   'packages/lodash/content/deepClone/node_modules/@lukos10000/groupby',
+21 verbose filtered diff   'packages/lodash/content/deepClone/package.json',
+21 verbose filtered diff   'packages/lodash/content/groupBy/index.js',
+21 verbose filtered diff   'packages/lodash/content/groupBy/node_modules/@lukos10000/compose',
+21 verbose filtered diff   'packages/lodash/content/groupBy/package.json',
+21 verbose filtered diff   'packages/lodash/content/index.js',
+21 verbose filtered diff   'packages/lodash/index.js',
+21 verbose filtered diff   'packages/lodash/package.json' ]
 22 verbose updated @lukos10000/functions
-23 verbose git-describe undefined => "v1.0.3-1-g4b9a4cc"
-24 silly git-describe parsed => {"lastTagName":"v1.0.3","lastVersion":"v1.0.3","refCount":"1","sha":"4b9a4cc","isDirty":false}
+23 verbose git-describe undefined => "v1.0.4-1-g0153cb7"
+24 silly git-describe parsed => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"1","sha":"0153cb7","isDirty":false}
 25 info execute Skipping releases
 26 silly lifecycle No script for "preversion" in "@lukos10000/lodash", continuing
 27 silly lifecycle No script for "preversion" in "@lukos10000/functions", continuing
@@ -33,10 +61,10 @@
 29 silly lifecycle No script for "version" in "@lukos10000/lodash", continuing
 30 silly gitAdd [ '/Users/konstantinlubinets/Documents/lerna-practice/packages/lodash/package.json',
 30 silly gitAdd   '/Users/konstantinlubinets/Documents/lerna-practice/lerna.json' ]
-31 silly gitCommit v1.0.4
-32 verbose git [ 'commit', '-m', 'v1.0.4' ]
-33 silly gitTag v1.0.4
-34 verbose git [ 'tag', 'v1.0.4', '-m', 'v1.0.4' ]
+31 silly gitCommit v1.0.5
+32 verbose git [ 'commit', '-m', 'v1.0.5' ]
+33 silly gitTag v1.0.5
+34 verbose git [ 'tag', 'v1.0.5', '-m', 'v1.0.5' ]
 35 silly lifecycle No script for "postversion" in "@lukos10000/functions", continuing
 36 silly lifecycle No script for "postversion" in "@lukos10000/lodash", continuing
 37 info git Pushing tags...
@@ -44,21 +72,21 @@
 39 info publish Publishing packages to npm...
 40 info Verifying npm credentials
 41 verbose Retrieving npm user profile
-42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 734ms
+42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 779ms
 43 silly npm profile get received {"tfa":{"pending":true,"mode":"auth-and-writes"},"name":"lukos10000","email":"lubinetskn@gmail.com","email_verified":true,"created":"2020-01-14T10:40:18.513Z","updated":"2020-01-15T10:14:10.600Z","cidr_whitelist":null,"fullname":"Konstantin Lubinets"}
 44 silly get npm username received {"username":"lukos10000","tfa":{"pending":true,"mode":"auth-and-writes"},"name":"lukos10000","email":"lubinetskn@gmail.com","email_verified":true,"created":"2020-01-14T10:40:18.513Z","updated":"2020-01-15T10:14:10.600Z","cidr_whitelist":null,"fullname":"Konstantin Lubinets"}
 45 silly verifyNpmPackageAccess
-46 http fetch GET 200 https://registry.npmjs.org/-/org/lukos10000/package?format=cli 850ms
+46 http fetch GET 200 https://registry.npmjs.org/-/org/lukos10000/package?format=cli 896ms
 47 info Checking two-factor auth mode
 48 verbose Retrieving npm user profile
-49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 345ms
+49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 322ms
 50 silly npm profile get received {"tfa":{"pending":true,"mode":"auth-and-writes"},"name":"lukos10000","email":"lubinetskn@gmail.com","email_verified":true,"created":"2020-01-14T10:40:18.513Z","updated":"2020-01-15T10:14:10.600Z","cidr_whitelist":null,"fullname":"Konstantin Lubinets"}
 51 silly 2FA { pending: true, mode: 'auth-and-writes' }
 52 warn ENOLICENSE Package @lukos10000/functions is missing a license.
 52 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 52 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 53 silly getCurrentSHA
-54 verbose getCurrentSHA 06e83f8f0a0af4389d52fa05f3ade01ccc3ed56d
+54 verbose getCurrentSHA e6df48de4187f7f474f99c4a2f3bb6f82dfb9c43
 55 silly lifecycle No script for "prepublish" in "@lukos10000/lodash", continuing
 56 silly lifecycle No script for "prepare" in "@lukos10000/lodash", continuing
 57 silly lifecycle No script for "prepublishOnly" in "@lukos10000/lodash", continuing

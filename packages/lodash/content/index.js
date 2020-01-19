@@ -1,3 +1,3 @@
-export * from './compose/index';
-export * from './deepClone/index';
-export * from './groupBy/index';
+export * from './compose';
+export * from './deepClone';
+export * from './groupBy';
