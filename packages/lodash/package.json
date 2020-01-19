@@ -1,5 +1,5 @@
 {
-  "name": "@lukos10000/lodash",
+  "name": "@lukos10000/functions",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "8cfc77f7e6cfb9028ad4a36d26594763b473b637"
 }
